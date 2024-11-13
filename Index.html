@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio v1</title>
+        <style>
+            /*General styling for the web page*/
+           
+            body{
+                background-color: black;
+                color: white;
+                padding: 0;
+                margin: 0;
+            }
+
+            /* Header styles*/
+            header{
+                text-align: center;
+                position: sticky;
+                top: o;
+                background-color: blueviolet;
+                padding: 10px 15px;
+            }
+            .navigation-bar{
+               text-align: center;
+            }
+            .navigation-bar ul li{
+                display: inline;
+            } 
+            .navigation-bar ul li a{
+                text-decoration: none;
+                color: #ffffff;
+                padding: 0px 35px 0px 35px;
+            }
+            
+           .container{
+            display: flex;
+            height: 100vh;
+           }
+           .same-margin{
+            margin: auto;
+           }
+           .div-1{
+            width: 60%;
+            text-align: center;
+            padding: 0px 20px 15px 100px;
+           }
+           .div-1 h1 span{
+            text-decoration: aqua;
+            text-align: center;
+            padding: 0px 0px;
+           }
+           .div-1 p{
+            text-align: justify;
+           color:gray;
+           font-size: 18px;
+           }
+           .div-2{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+           }
+           .div-2 img{
+              border-radius: 8px;
+           }
+            
+           #skills-section{
+            text-align: center;
+           }
+           .skills-container{
+            display: flex;
+            justify-content: center;
+            height: 80vh;
+           }
+           .skills-card{
+            background-color: #ffffff;
+            color: #000000;
+            width: 30%;
+            margin: auto;
+            border-radius: 10px;
+            padding-top: 20vh;
+           }
+           .skills-card p{
+            color: gray;
+           }
+          #work-section{ 
+            text-align: center;
+            }
+            .work-container{
+            display: flex;
+            justify-content: center;
+            height: 70vh;
+            }
+            .work-content{
+            border: 1px solid grey;
+            width: 27%;
+            margin: auto 30px;
+            color: grey;
+            border-radius: 8px;
+            }
+          .work-content img{
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+          }
+            
+            .work-content p{ 
+                padding: 50px 15px 17px 15px;
+                font-size: 15px;
+                font-weight: lighter;
+                text-align: justify;
+            }
+            .work-card{
+                border-top-left-radius: 2px;
+                border-top-right-radius: 2px;
+            }
+            .work-content button{
+                color: grey;
+                background-color: #000000;
+                border: .5px solid grey;
+                margin: 11px 0px;
+                padding: 10px 5px 10px 5px ;
+                cursor: pointer;
+                border: none;
+            }
+            #test-section{
+               text-align: center;
+               margin: 7px 1px ;
+            }
+            .test-container{
+                display: flex;
+                justify-content: center;
+                height: 80vh;
+            }
+            .test-content{
+                width: 50%;
+                margin: auto;
+                color: grey;
+            }
+            .test-content h1{
+                color:#ffffff;
+            }
+            .test-content button{
+                background-color: goldenrod;
+                padding: 18px 40px 18px 40px;
+                border-radius: 9px;
+                color:#ffffff;
+            }
+            .test-words{
+                text-align: justify;
+                padding: 0px 15px;
+                margin-left: 35px;
+            }
+            .test-img img {
+                border-radius: 60%;
+            }
+            /*Footer styles*/
+            footer{
+                background-color: white;
+                color: #000000;
+                padding: 2px 3px;
+                display: flex;
+                justify-content: center;
+
+            }
+
+        </style>
+    </head>
+   
+
+    <body>
+        <header>
+            <div class="navigation-bar">
+                <nav>
+                    <ul>
+                        <li><a href="#home-section">Home</a></li>
+                        <li><a href="#skills-section">Skills</a></li>
+                        <li><a href="#work-section">Work</a></li>
+                        <li><a href="#test-section">Testimonials</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section>
+                <div class="container">
+                    <div class="same-margin div-1">
+                        <div class="content">
+                         <h2> Giraneza  <span>Alimence</span></h2>
+                         <p>I am Alimence Giraneza and Im a student of tech tonic africa learning  full stack web development course <br> which will take 9 months to be finished.  And I have finished my academics for high school <br> at Sonrise in Musanze dealing  with a combination of Mathematics,Physics and Chemistry.</p>
+                        </div>
+                    </div>
+                    <div class="same-margin div-2"> 
+                        <img src="./My image.jpg" alt="My image" height="200" width="170"> 
+                    </div>
+                    
+                </div
+        </section>
+
+        <section id="skills-section">
+            <h1> Specialised  In</h1>
+            <div class="skills-container">
+                <div class="skills-card skill-1">
+                    <h7>Front-end development</h7>
+                    <p> Fitness  web app. <br> This app helps users to track working hour per day,per week and per month and it shows also the total number of calories burnt. 
+                    </p>
+                </div>
+
+                <div class="skills-card skill-2">
+                    <h7>Back-end development</h7>
+                    <p>Online Food ordering system. <br> This online ordering system enables users to order for food packages which is delivered to home address insulted in the ordering portal. 
+                    </p>
+                </div>
+
+                <div class="skills-card skill-3">
+                    <h7>SQL Projects</h7>
+                    <p>Library management. <br>Library management website helped the librarian to easly locate any kind of book and also helped online readers to easly browse the book name and geyt accessed to it simply.
+                    </p>
+                </div>
+            </div>
+        </section> 
+        <section id="work-section">
+            <h1> Worked On</h1>
+            <div class="work-container">
+                <div class="work-content work-1">
+                    <img src="./Meta image.png" alt="Meta image" height="150" width="355">
+                    
+                    <p>Worked on Projects in Meta so as to build the future of human connection and the technology that makes it possible by building innovative new ways to help people connect to each other.
+                    </p>
+                    <button>Continue reading</button>
+                </div>
+            
+            
+                <div class="work-content work-2">
+                    <img src="./Microsoft image.jpeg" alt="Microsoft image" height="150" width="355">
+                    
+                    <p>Facilitated on projects that enabled people and businesses throughout the world to realise their full potential by creating technology that transforms the way people work,play,and communicate.
+                    </p>
+                    <button>Continue reading</button>
+                </div>
+           
+           
+                <div class="work-content work-3">
+                    <img src="./Tesla image.png" alt="Tesla image" height="150" width="355">
+                    
+                    <p>Worked on Electric cars,solar and clean energy so as to accelerate the world transition to sustainable energy with cars,sonors and intergrated renewable energy solutions for homes.
+                    </p>
+                    <button>Continue reading</button>
+
+                </div>
+            </div>
+        </section>  
+        <section id="test-section">
+            <h1>Testimonials</h1>
+            <div class="test-container">
+                <div class="test-content test-words">
+                <h1>Abigail Dahlia</h1>
+                <p>She has been my workmate from Tesla company whereby we worked on massive projects such as building cyber truck which could be the most fastest and strongest truck ever existed. 
+                </p>
+                <button> Read more></button>
+                </div>
+
+                <div class="test-content test-img" >
+                    <img src="Testimonials image.jpeg" alt="Testimony image" height="170px" width="250px">
+                </div>
+
+            </div>            
+        </section> 
+        <footer>
+            <div class="footer-container">
+                <p>&copy;Giraneza Alimence</p>
+            </div>
+        </footer>   
+    </body>
+</html>
